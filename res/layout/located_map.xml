@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <corp.katet.pathfinder.map.PlaceLocator
+        android:id="@+id/place_locator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <corp.katet.pathfinder.map.RoutedMap
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        map:mapType="satellite"
+        map:uiRotateGestures="false"
+        map:uiTiltGestures="false"
+        map:uiZoomControls="false" />
+
+    <ProgressBar
+        android:id="@+id/location_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:visibility="visible" />
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">Pathfinder</string>
+    <string name="from_position">Posición origen: </string>
+    <string name="to_position">Posición destino: </string>
+    <string name="orientation">Orientación actual: </string>
+    <string name="distance">Distancia: </string>
+    <string name="bearing">Dirección X: </string>
+    <string name="vertical_bearing">Dirección Y: </string>
+    <string name="API_KEY">AIzaSyCh5IzryrN06M08hH-4l23TRzhhYwhZ01E</string>
+    <string name="API_KEY_V2">AIzaSyDusqCRyXn-5nbeKUBm84IbxuhvPbQrAU8</string>
+
+</resources>
